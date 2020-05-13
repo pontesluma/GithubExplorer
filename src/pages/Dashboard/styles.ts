@@ -63,6 +63,7 @@ export const Repositories = styled.div`
     width: 100%;
     padding: 24px;
     text-decoration: none;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 
     display: flex;
     align-items: center;
@@ -95,6 +96,7 @@ export const Repositories = styled.div`
     }
 
     p {
+      margin-top: 4px;
       font-size: 18px;
       color: #a8a8b3;
     }
